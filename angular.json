@@ -117,8 +117,16 @@
               "devServerTarget": "coolApp:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "coolApp"
+    }
+  },
+  "defaultProject": "coolApp",
+  "cli": {
+    "analytics": "1d8309a4-619c-494f-b5b3-1aefa84507c3"
+  }
 }
