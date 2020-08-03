@@ -25,7 +25,12 @@ export class DataService {
     nombre: 'Palkel',
     categoria: 'Pequeña',
     descripcion: 'Nacida entle cubano',
-    precio: 1298389127389712893712}
+    precio: 1298389127389712893712},
+    {id: 5,
+    nombre: 'Carne',
+    categoria: 'Comida',
+    descripcion: 'Proteina',
+    precio: 7000}
   ];
 
   getAllProducts() {
